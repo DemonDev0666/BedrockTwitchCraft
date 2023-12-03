@@ -1,0 +1,55 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Bedrock Twitch Craft",
+        "description": "A Addon that allows Twitch Chat to Control the game",
+        "min_engine_version": [
+            1,
+            20,
+            40
+        ],
+        "uuid": "9751a784-dcfa-4788-af41-dea9b5f4c747",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "Scripts",
+            "language": "javascript",
+            "type": "script",
+            "uuid": "0b7a207d-fb91-4b9b-89ed-e00ddeb96155",
+            "entry": "scripts/main.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "data",
+            "uuid": "ce460728-dcf6-4ad0-b204-6ec2ff395ab3",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.0.0-beta"
+        },
+        {
+            "module_name": "mojang-minecraft-server-admin",
+            "version": "1.0.0-beta"
+        },
+        {
+            "module_name": "mojang-net",
+            "version": "1.0.0-beta"
+        }
+    ]
+}
