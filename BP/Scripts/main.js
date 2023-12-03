@@ -1,5 +1,5 @@
 import { HttpHeader, HttpRequest, HttpRequestMethod } from "@minecraft/server-net"; 
-import { EntityQueryOptions, world, Block, } from "@minecraft/server";
+import { EntityQueryOptions, World, Block, } from "@minecraft/server";
 
 import { ServerVariables, ServerSecrets, } from "@minecraft/server-admin";
 
